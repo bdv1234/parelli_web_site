@@ -1,0 +1,667 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
+
+* {
+    box-sizing: border-box;
+}
+
+.container-hero {
+    max-width: 1284px;
+    margin: 0 auto;
+    padding: 0 0;
+}
+
+.main-navbar-div {
+    margin-top: -30px;
+}
+
+.btn-chat-txt {
+    font-family: 'Open sans';
+    font-size: 17px;
+    color: rgba(254, 254, 254, 1);
+    padding: 5px 10px;
+    font-weight: 400;
+}
+
+.nav-link-custom {
+    font-family: 'Open sans';
+    font-size: 16px;
+    color: rgba(230, 230, 230, 1) !important;
+    font-weight: 400;
+}
+
+.btn-chat-txt-custome {
+    padding-left: 10px !important;
+    padding-right: 14px !important;
+}
+
+
+/* header section sign up button */
+.btn-signup {
+    margin-top: 30px;
+    padding-left: 50px;
+}
+
+
+.sample-pro-btn {
+    font-family: 'Open sans';
+    font-size: 17px;
+    font-weight: 600;
+    color: rgba(254, 254, 254, 1);
+    padding: 10px 30px;
+    width: 250px;
+    border: 2px solid #959393 !important;
+}
+
+.sample-pro-btn:hover {
+    color: #000 !important;
+    background-color: #FFC107 !important;
+    border-color: none;
+}
+
+.button-outline {
+    border: 2px solid #555a5c;
+    border-radius: 5px;
+}
+
+.singmeupbtn {
+    font-family: 'Open sans';
+    font-size: 17px;
+    color:  rgba(31, 32, 35, 1);
+    font-weight: 600;
+    padding: 12px 70px;
+    width: 250px;
+    background-color: #ffc745;
+    border: none;
+}
+
+.hero-image {
+    background-image: url('../img/head-section-img/main-background-img-1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 837px;
+}
+
+
+/* add dark overlay to the hero-image background */
+.hero-image .dark-overlay {
+    background-color: rgba(0, 0, 0, 0.68);
+    height: inherit;
+}
+
+.welcome-box {
+    margin-top: 88px;
+}
+
+.welcome-box h1 {
+    font-family: 'Open sans';
+    font-size: 55px;
+    font-weight: 600;
+    color:rgba(254, 254, 254, 1);
+}
+
+.parelli-title-desc {
+    font-family: 'Open sans';
+    font-size: 26px;
+    color: rgba(254, 254, 254, 1);
+    font-weight: 300 !important;
+}
+
+.down-arrow {
+    margin-top: 135px;
+}
+
+
+/* testimonial section */
+
+.container-testimonial {
+    max-width: 1284px;
+    margin: 0 auto;
+    padding: 0 0; /* 10px if needed */
+}
+
+
+.testimonial-background {
+    /* position: relative; */
+    background-color: #ebebeb;
+    min-height: 934px;
+    margin-top: -30px;
+    padding-bottom: 80px;
+}
+
+.bg-wrapper {
+    background-image: url('../img/testimonial-section-img/testimonial-main-img.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    min-height: 468px;
+}
+
+
+/* middle content push to the top */
+.embose-top {
+    background-color: #fff;
+    margin-top: -60px;
+    position: relative;
+    /* min-height: 902px; */
+    z-index: 3489;
+}
+
+
+.icon-title-desc-wrapper {
+    padding-left: 43px;
+    padding-right: 50px;
+}
+
+.padd-right-community-desc {
+    padding-right: 27px;
+}
+
+
+.dark-overlay {
+    background-color: rgba(0, 0, 0, 0.8);
+    height: inherit;
+}
+
+.middle-title-testimonial {
+    font-family: 'Open sans';
+    font-size: 45px;
+    color: rgba(51, 51, 51, 1);
+}
+
+.icon-text-testimonial {
+    font-family: 'Open sans';
+    font-weight: 300;
+    font-size: 27px;
+    color: rgba(48, 49, 51, 1);
+}
+
+.testimonial-icon-desc {
+    font-family: 'Open sans';
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(120, 120, 120, 1);
+    line-height: 1.1em;
+}
+
+.slider-main-text {
+    font-family: 'Open sans';
+    font-size: 45px;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 400;
+}
+
+.whiteborder {
+    width: 113px;
+    height: 2px;
+    background-color: #fff;
+    position: absolute;
+    top: 70px;
+    left: 45.5%;
+}
+
+.slider-desc-text {
+    font-family: 'Open sans';
+    font-size: 30px;
+    font-style: italic;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 400;
+    padding: 0 54px;
+}
+
+.testi-italic-text {
+    margin-top: 76px;
+}
+
+.lyndagirl-desc {
+    padding-left: 25px;
+}
+
+.lyndagirl {
+    border: 3px solid #fff;
+    border-radius: 50%;
+    position: relative;
+}
+
+.lynda-full-name {
+    font-family: 'Open sans';
+    font-weight: 600;
+    font-size: 20px;
+    color: rgba(254, 254, 254, 1);
+    margin-bottom: 0;
+}
+
+.membership {
+    font-family: 'Open sans';
+    font-size: 16px;
+    color: rgba(255, 199, 69, 1);
+    font-weight: 400;
+}
+
+.left-side-arrow {
+    padding-top: 23px;
+}
+
+.right-side-arrow {
+    padding-top: 23px;
+}
+
+.whitehorborder {
+    width: 1px;
+    height: 83px;
+    background-color: #a4a7a4;
+    position: absolute;
+    right: -5px;
+    bottom: 5px;
+}
+
+
+/* image section text-blocks */
+
+.container-menu {
+    max-width: 1284px;
+    margin: 0 auto;
+    padding: 0 0; /* if needed remove this padding */
+}
+
+.middle-title {
+    font-family: 'Open sans';
+    font-size: 45px;
+    font-weight: 400;
+}
+
+.yellow-border {
+    width: 113px;
+    height: 2px;
+    background-color: #ffc746;
+    position: absolute;
+    top: 120px;
+    left: 45.5%;
+}
+
+.image-holder {
+    position: relative;
+    max-width: 423px;
+    max-height: 279px;
+}
+
+
+.text-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: rgba(45, 45, 45, 0.8);
+    color: rgba(255, 255, 255, 0.7);
+    padding: 27px 20px 26px 20px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 266px;
+    height: 141px;
+    border: 1px solid #a3a3a3;
+}
+
+.ct-pg {
+    padding: 14px 40px;
+}
+
+.ct-fa {
+    padding: 14px 40px;
+}
+
+.row2-fir-box {
+    padding: 37px 5px 26px 5px;
+}
+
+.ct-ccd {
+    padding: 14px 0;
+}
+
+.row-one-img-2 {
+    margin-left: 1px;
+}
+
+.row-one-img-3 {
+    margin-left: 4px;
+}
+
+.row-two-img {
+    margin-top: 2px;
+}
+
+.row-two-img-2 {
+    margin-left: 2px;
+}
+
+
+.text-box:hover {
+    background-color: #ffc746;
+    color: #000;
+}
+
+.content-text {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 28px;
+    text-align: center;
+    line-height: 1.1em;
+}
+
+/* image is initially grayscale */
+.image-item {
+    /* filter: #4e4e4e; */
+    filter: grayscale(1); 
+    transition: all .1s ease-in-out;  
+}
+
+/* when hovering images, they become colored */
+.image-item:hover {
+    filter: none;
+    -webkit-filter: grayscale(0);
+    transform: scale(1.00);
+}
+
+.hero-middle-background {
+    background-color: #fff;
+    /* margin-top: -30px; */
+    padding-bottom: 40px; /* before 50px 100px */
+    min-height: 820px;
+}
+
+.up-arrow-middle {
+    margin-top: 50px;
+}
+
+
+
+
+
+/* footer section */
+
+.container-footer {
+    max-width: 1284px;
+    margin: 0 auto;
+    padding: 0 0; /* if needed remove this padding */
+}
+
+
+.contact-info {
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.7);
+    font-family: 'Open Sans';
+    text-align: left;
+    font-weight: 400;
+}
+
+.footer-text-title {
+    color: rgba(232, 232, 232, 255);
+    font-size: 24px;
+    font-family: 'Open sans';
+    font-weight: 300;
+}
+
+.footer-text-country {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 18px;
+    text-align: left;
+    font-weight: 600;
+}
+
+.foot-txt {
+    font-weight: 600;
+}
+
+.foo-country-left-padd {
+    padding-left: 28px;
+}
+
+
+.foo-left-padd {
+    padding-left: 35px;
+}
+
+
+.left-side {
+    margin-top: 30px;
+    padding-right: 0px;
+}
+
+.right-side {
+    margin-top: 82px;
+}
+
+.footer-bg {
+    position: relative;
+    min-height: 288px;
+}
+
+.footer-bg:before, .footer-bg:after {
+    content: "";
+    width: 50%;
+    height: 288px;
+    position: absolute;
+    top: 0;
+}
+
+.footer-bg:before {
+    background-color: #333;
+    left: 0;
+}
+
+.footer-bg:after {
+    background: #3e3e3e;
+    right: 0;
+    z-index: -33333333;
+}
+
+.so-img-twitter {
+    padding-right: 0;
+}
+
+.so-img {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.row.social-icon {
+    width: 80%;
+}
+
+.row.social-icon div {
+    width: 10%;
+}
+
+.footer-text-bottom {
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.7);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+.fb-svg {
+    margin-left: 5px;
+}
+
+.google-svg {
+    margin-left: 4px;
+}
+
+.linkedin-svg {
+    margin-left: 4px;
+}
+
+
+
+
+/* media queries */
+/* tabs and mobile devices */
+@media (max-width: 568px) {
+
+    .parelli-title-desc {
+        font-size: 22px;
+    }
+
+    .welcome-box h1 {
+        font-size: 50px;
+    }
+
+    .hero-middle-background {
+        margin-top: -30px;
+        padding-bottom: 80px;
+        height: auto;
+    }
+
+    .whiteborder,
+    .left-side-arrow,
+    .right-side-arrow {
+        display: none;
+    }
+
+    .lyndagirldiv, .lyndagirl-desc {
+        text-align: center !important;
+    }
+
+    .last-row-image {
+        margin-top: 1px;
+        margin-bottom: 4px;
+    }
+
+    .container-menu {
+        padding: 0 10px 0 10px;
+    }
+
+
+    .footer-bg {
+        width: 100%;
+        background-color: #333;
+        content: normal;
+        height: auto;
+    }
+
+    .container-footer,
+    .container-footer .footer-text-country,
+    .container-footer .contact-info{
+        text-align: center;
+    }
+
+    .foo-country-left-padd {
+        padding-left: 0;
+    }
+
+    .row.social-icon {
+        width: 100%;
+    }
+
+    .logo-footer-bottom {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .navbar-brand img {
+        display: none;
+    }
+
+    li .button-outline {
+        border: none;
+    }
+
+    .play-video {
+        display: none;
+    }
+
+    .down-arrow {
+        display: none;
+    }
+
+    .btn-signup button {
+        display: inline-block;
+        margin-bottom: 10px;
+    }
+
+    .btn-signup {
+        padding-left: 0;
+        margin-right: 0;
+    }
+
+    .vertical-seperator {
+        display: none;
+    }
+
+    .yellow-border {
+        display: none;
+    }
+
+    .hor-line {
+        display: none;
+    }
+
+    .slider-desc-text {
+        margin-top: -30px;
+    }
+
+}
+
+@media (min-width: 767px) and (max-width: 1000px) {
+
+    .footer-bg {
+        width: 100%;
+        background-color: #333;
+        content: normal;
+        height: auto;
+    }
+
+    .hero-middle-background {
+        min-height: 0;
+    }
+
+    .content-text {
+        font-size: 22px;
+    }
+
+    .text-box {
+        width: 200px;
+        height: 135px;
+    }
+}
+
+@media (min-width: 1023px) and (max-width: 1100px) {
+    .footer-bg:before {
+        height: 314px;
+    }
+
+    .footer-bg:before, .footer-bg:after {
+        height: 314px;
+    }
+
+    .left-side {
+        padding-left: 30px;
+    }
+}
+
+
+
+/* only needed to add iOS specific CSS */
+@media
+only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (-o-min-device-pixel-ratio: 3/2),
+only screen and (min--moz-device-pixel-ratio: 1.5),
+only screen and (min-device-pixel-ratio: 1.5) {
+
+  html,
+  body{
+    width:100%;
+    overflow-x:hidden;
+  }
+
+}
+
+/* 
+-- can remove y-axix white line when viewing in the mobile devices.
+html,body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+} */

@@ -1,0 +1,471 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
+
+.container-hero {
+    max-width: 1310px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.main-navbar-div {
+    margin-top: -30px;
+}
+
+.btn-chat-txt {
+    font-family: 'Open sans';
+    font-size: 20px;
+    color: rgba(254, 254, 254, 1);
+    padding: 5px 10px;
+    font-weight: 100;
+}
+
+.nav-link-custom {
+    font-family: 'Open sans';
+    font-size: 20px;
+    color: rgba(230, 230, 230, 1) !important;
+    font-weight: 100;
+}
+
+
+/* header section sign up button */
+.btn-signup {
+    margin-top: 30px;
+    padding-left: 50px;
+}
+
+
+.sample-pro-btn {
+    font-family: 'Open sans';
+    font-size: 18px;
+    font-weight: 400;
+    color: rgba(254, 254, 254, 1);
+    padding: 10px 30px;
+    width: 250px;
+}
+
+.sample-pro-btn:hover {
+    color: #000 !important;
+    background-color: #FFC107 !important;
+    border-color: none;
+}
+
+.button-outline {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.singmeupbtn {
+    font-family: 'Open sans';
+    font-size: 18px;
+    color:  rgba(31, 32, 35, 1);
+    font-weight: 400;
+    padding: 10px 70px;
+    width: 250px;
+}
+
+.hero-image {
+    background-image: url('../img/head-section-img/main-background-img-2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 837px;
+}
+
+
+/* add dark overlay to the hero-image background */
+.hero-image .dark-overlay {
+    background-color: rgba(0, 0, 0, 0.8);
+    height: inherit;
+}
+
+.welcome-box {
+    margin-top: 88px;
+}
+
+.welcome-box h1 {
+    font-family: 'Open sans';
+    font-size: 50px;
+    color:rgba(254, 254, 254, 1);
+}
+
+.parelli-title-desc {
+    font-family: 'Open sans';
+    font-size: 23px;
+    color: rgba(254, 254, 254, 1);
+    font-weight: 100 !important;
+}
+
+.down-arrow {
+    margin-top: 158px;
+}
+
+
+/* testimonial section */
+
+.container-testimonial {
+    max-width: 1310px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+
+.testimonial-background {
+    /* position: relative; */
+    background-color: #ebebeb;
+    min-height: 934px;
+    margin-top: -30px;
+    padding-bottom: 80px;
+}
+
+.bg-wrapper {
+    background-image: url('../img/testimonial-section-img/testimonial-main-img.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    min-height: 468px;
+}
+
+
+/* middle content push to the top */
+.embose-top {
+    background-color: #fff;
+    margin-top: -60px;
+    position: relative;
+    /* min-height: 902px; */
+    z-index: 3489;
+}
+
+
+.icon-title-desc-wrapper {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+.dark-overlay {
+    background-color: rgba(0, 0, 0, 0.8);
+    height: inherit;
+}
+
+.middle-title-testimonial {
+    font-family: 'Open sans';
+    font-size: 60px;
+    color: rgba(51, 51, 51, 1);
+}
+
+.icon-text-testimonial {
+    font-family: 'Open sans';
+    font-weight: 100;
+    font-size: 34px;
+    color: rgba(48, 49, 51, 1);
+}
+
+.testimonial-icon-desc {
+    font-family: 'Open sans';
+    font-weight: 400;
+    font-size: 20px;
+    color: rgba(120, 120, 120, 1);
+    line-height: 1em;
+}
+
+.slider-main-text {
+    font-family: 'Open sans';
+    font-size: 60px;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 300;
+}
+
+.whiteborder {
+    width: 113px;
+    height: 2px;
+    background-color: #fff;
+    position: absolute;
+    top: 90px;
+    left: 45%;
+}
+
+.slider-desc-text {
+    font-family: 'Open sans';
+    font-size: 36px;
+    font-style: italic;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 300;
+}
+
+.lyndagirl {
+    border: 3px solid #fff;
+    border-radius: 50%;
+    position: relative;
+}
+
+.lynda-full-name {
+    font-family: 'Open sans';
+    font-weight: 400;
+    font-size: 22px;
+    color: rgba(254, 254, 254, 1);
+    margin-bottom: 0;
+}
+
+.membership {
+    font-family: 'Open sans';
+    font-size: 20px;
+    color: rgba(255, 199, 69, 1);
+    font-weight: 300;
+}
+
+.whitehorborder {
+    width: 1px;
+    height: 83px;
+    background-color: #fff;
+    position: absolute;
+    right: 0;
+    bottom: 5px;
+}
+
+
+/* image section text-blocks */
+
+.container-menu {
+    max-width: 1310px;
+    margin: 0 auto;
+    padding: 0 10px; /* if needed remove this padding */
+}
+
+.middle-title {
+    font-family: 'Open sans';
+    font-size: 45pt;
+}
+
+.yellow-border {
+    width: 113px;
+    height: 2px;
+    background-color: #ffc746;
+    position: absolute;
+    top: 135px;
+    left: 46%;
+}
+
+.image-holder {
+    position: relative;
+    min-width: 423px;
+    min-height: 279px;
+}
+
+
+.text-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: rgba(45, 45, 45, 0.8);
+    color: rgba(255, 255, 255, 0.7);
+    padding: 5px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 320px;
+    height: 150px;
+    border: 1px solid #a3a3a3;
+
+}
+
+.text-box:hover {
+    background-color: #ffc746;
+    color: #000;
+}
+
+.content-text {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+    font-size: 25pt;
+    padding: 20px;
+    text-align: center;
+    line-height: 1.1em;
+}
+
+/* image is initially grayscale */
+.image-item {
+    filter: #4e4e4e;
+    -webkit-filter: grayscale(1);
+    transition: all .1s ease-in-out;  
+}
+
+/* when hovering images, they become colored */
+.image-item:hover {
+    filter: none;
+    -webkit-filter: grayscale(0);
+    transform: scale(1.00);
+}
+
+.hero-middle-background {
+    background-color: #fff;
+    /* margin-top: -30px; */
+    padding-bottom: 100px;
+    min-height: 820px;
+}
+
+
+
+
+
+
+
+/* footer section */
+
+.container-footer {
+    max-width: 1310px;
+    margin: 0 auto;
+    padding: 0 10px; /* if needed remove this padding */
+}
+
+
+.contact-info {
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.7);
+    font-family: 'OpenSans-Semibold' ,'Open Sans', sans-serif;
+    text-align: left;
+    font-weight: 100;
+}
+
+.footer-text-title {
+    color: rgba(232, 232, 232, 255);
+    font-size: 32px;
+    font-family: 'Open sans';
+    font-weight: 200;
+}
+
+.footer-text-country {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 20px;
+    text-align: left;
+    font-weight: 500;
+}
+
+.foot-txt {
+    font-weight: 600;
+}
+
+.left-side {
+    margin-top: 30px;
+    padding-right: 0px;
+}
+
+.right-side {
+    margin-top: 60px;
+}
+
+.footer-bg {
+    position: relative;
+    min-height: 288px;
+}
+
+.footer-bg:before, .footer-bg:after {
+    content: "";
+    width: 50%;
+    height: 288px;
+    position: absolute;
+    top: 0;
+}
+
+.footer-bg:before {
+    background-color: #333;
+    left: 0;
+}
+
+.footer-bg:after {
+    background: #3e3e3e;
+    right: 0;
+    z-index: -33333333;
+}
+
+.so-img-twitter {
+    padding-right: 0;
+}
+
+.so-img {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.row.social-icon {
+    width: 80%;
+}
+
+.row.social-icon div {
+    width: 10%;
+}
+
+.footer-text-bottom {
+    font-size: 16pt;
+    color: rgba(255, 255, 255, 0.7);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+}
+
+
+
+
+/* media queries */
+/* tabs and mobile devices */
+@media (max-width: 768px) {
+
+    .hero-middle-background {
+        background-color: #ebebeb;
+        margin-top: -30px;
+        padding-bottom: 80px;
+        height: auto;
+    }
+
+    .last-row-image {
+        margin-top: 1px;
+    }
+
+
+    .footer-bg {
+        width: 100%;
+        background-color: #333;
+        content: normal;
+        height: auto;
+    }
+
+    .footer-bg .container {
+        text-align: center;
+    }
+
+    .navbar-brand img {
+        display: none;
+    }
+
+    li .button-outline {
+        border: none;
+    }
+
+    .play-video {
+        display: none;
+    }
+
+    .down-arrow {
+        display: none;
+    }
+
+    .btn-signup button {
+        display: inline-block;
+        margin-bottom: 10px;
+    }
+
+    .sample-pro-btn {
+        margin-left: 10px;
+    }
+
+    .vertical-seperator {
+        display: none;
+    }
+
+    .yellow-border {
+        display: none;
+    }
+
+    .hor-line {
+        display: none;
+    }
+
+}
